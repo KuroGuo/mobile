@@ -5,7 +5,7 @@ import {
   TransactionModel,
   FullTransactionModel,
 } from './AbstractElectrum';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {AppStorage} from '../app-storage';
 import DefaultPreference from 'react-native-default-preference';
 const bitcoin = require('bitcoinjs-lib');
